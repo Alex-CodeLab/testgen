@@ -8,6 +8,10 @@ in your config, add the apps that you want to create tests  for
 
        TESTGEN_APPS = ('myapp', 'otherapp')
 
+and add to Middleware:
+
+       'testgenerator.middleware.TestGenMiddleware',
 
 
-Now visit your website and for each url a test will be generated
+
+Now visit your website and for each url a test will be generated.
